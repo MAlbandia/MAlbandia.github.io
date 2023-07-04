@@ -12,15 +12,33 @@ body {
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
   padding: 40px;
 }
+ul {list-style-position:inside;}
+
+
+header{text-align: center;}
+h1{text-align: center;}
+h2{text-align: center;}
+p{text-align: center;}
+a { color: #d62828;}
+a:hover{ color: #f77f00;}
+
 
 /* Set the font family for any h1, h2, or h3 heading */
-h1 {font-size: 60px;}
+h1 {font-size: 50px;}
 h2 {font-size: 30px;}
-h3 {font-size: 20px;}
+h3 {
+  font-size: 20px;
+  text-align: center;
+}
   /* font-family: "Playfair Display", Times, serif;
 } */
 
-img {border-radius: 50%;}
+img {
+  border-radius: 50%;
+  display:block;
+  margin:auto;
+}
+
 
 
 article {
@@ -48,11 +66,12 @@ img {
   height: auto;
 }
 
-hr {
-  border: 1px solid black;
-}
 
 /* Add your solution below */
 
 .image-circle {
+  border: 2px solid black;
+}
+.section{
+  border-bottom: 1px solid black;
 }
