@@ -15,10 +15,7 @@ body {
 ul {list-style-position:inside;}
 
 
-header{text-align: center;}
-h1{text-align: center;}
-h2{text-align: center;}
-p{text-align: center;}
+
 a { color: #d62828;}
 a:hover{ color: #f77f00;}
 
@@ -45,7 +42,7 @@ article {
   padding: 50px 0;
 }
 
-article div {
+article {
   text-align: center;
   width: 100%;
 }
@@ -75,3 +72,7 @@ img {
 .section{
   border-bottom: 1px solid black;
 }
+header{text-align: center;}
+h1{text-align: center;}
+h2{text-align: center;}
+p{text-align: center;}
