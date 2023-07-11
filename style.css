@@ -1,5 +1,9 @@
 /* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
- @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+/* Move text to left
+Change portfolio images to rectangle */
+
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
 .center{
   margin: auto;
   width: auto; 
@@ -31,7 +35,6 @@ h3 {
 } */
 
 img {
-  border-radius: 50%;
   display:block;
   margin:auto;
 }
@@ -67,6 +70,7 @@ img {
 /* Add your solution below */
 
 .image-circle {
+  border-radius: 50%;
   border: 2px solid black;
 }
 .section{
@@ -75,4 +79,9 @@ img {
 header{text-align: center;}
 h1{text-align: center;}
 h2{text-align: center;}
-p{text-align: center;}
+p{text-align: left;}
+footer>p{text-align: center}
+nav{
+ display:flex;
+ justify-content: space-evenly;
+}
